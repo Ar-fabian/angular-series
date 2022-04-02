@@ -1,0 +1,23 @@
+.list{
+    list-style: none;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+    animation: down 1.3s ease-out backwards;
+    &__item{
+        font-size: 1.2rem;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        color: #fff;
+        background-color: #000;
+    }
+}
+@keyframes down {
+    0%{
+        transform: translateX(-500%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}

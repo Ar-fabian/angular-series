@@ -1,0 +1,19 @@
+.container{
+    width: 90%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(4,.1fr);
+    gap: 10px;
+}
+.card{
+    width: 300px;
+    background: #000;
+    &__header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+.example-card{
+    background: #000;
+}
